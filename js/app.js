@@ -1,5 +1,5 @@
 const btnReset = document.querySelector('#btn__reset');
-const keyboard = document.querySelector('#qwerty');
+const keyboard = document.getElementById("qwerty");
 let phrase = document.querySelector("#phrase > ul");
 let overlay = document.getElementById("overlay");
 let missed = 0;
@@ -37,5 +37,9 @@ function addPhraseToDisplay() {
 addPhraseToDisplay();
 
 function checkLetter(e) {
+    for (let i = 0; i < separatePhrase.length; i++) {
+        if () {
 
+        }
+    }
 }
